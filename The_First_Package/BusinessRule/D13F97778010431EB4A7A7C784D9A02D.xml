@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BusinessRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Id>D13F97778010431EB4A7A7C784D9A02D</Id>
+    <Name>New business rule</Name>
+    <Version>8</Version>
+    <ProcessId />
+  </Identity>
+  <LatestVersion>false</LatestVersion>
+  <Version>8</Version>
+  <ProcessIdentity>
+    <Id>06228F08774474DA37BFA4ACE5AA8C58</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>8</Version>
+    <Name>New business rule</Name>
+  </ProcessIdentity>
+  <RuleType>Process</RuleType>
+  <CategoryIdentity>
+    <Id>2131F93223F1496692629BC9C83DA973</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+  </CategoryIdentity>
+  <LastModifiedUserName>Anirudh Vancha</LastModifiedUserName>
+  <FlaggedForRelease>false</FlaggedForRelease>
+  <CurrentRuleView>Released</CurrentRuleView>
+  <IsRuleInUse>false</IsRuleInUse>
+  <LastModifiedUser>A67F454256EC463BA3CE993682D61A12</LastModifiedUser>
+  <LastModifiedDate>2022-11-16T05:46:02.043</LastModifiedDate>
+  <WIPRuleData>
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+    </decisiontabledata>
+  </WIPRuleData>
+  <ReleaseRuleData>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+    </decisiontabledata>
+  </ReleaseRuleData>
+  <Description />
+  <Rule>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+    </decisiontabledata>
+  </Rule>
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</BusinessRule>

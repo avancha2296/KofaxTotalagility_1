@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ClassificationGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>0B1520E7217CF8272E799F1977C9B77C</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>74</Version>
+    <Name>Instruction Classification</Name>
+  </Identity>
+  <Name>Instruction Classification</Name>
+  <Description />
+  <Status>Released</Status>
+  <IsShared>false</IsShared>
+  <Category>
+    <Id>2131F93223F1496692629BC9C83DA973</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Classification Project</Name>
+  </Category>
+  <DocumentGroups>
+    <DocumentGroupIdentity>
+      <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>21</Version>
+      <Name>Form_Type</Name>
+    </DocumentGroupIdentity>
+  </DocumentGroups>
+  <LastModifiedDate>2022-11-17T12:52:49.457</LastModifiedDate>
+  <LastModifiedUser>
+    <Id>A67F454256EC463BA3CE993682D61A12</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <LockedByModule>None</LockedByModule>
+  <ClassificationOnlineLearningEnabled>false</ClassificationOnlineLearningEnabled>
+  <ClassificationMaxDocCount>2000</ClassificationMaxDocCount>
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>48E28F343AE549EBAFF9F1CF282F1A28</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Jayavardhan Masa</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>ReadWrite</PermissionType>
+    </ResourceAccess>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>NoAccess</ResourcePermissionType>
+</ClassificationGroup>

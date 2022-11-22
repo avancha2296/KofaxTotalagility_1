@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SpaPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpaPackageIdentity>
+    <Id>328BE9468124416DB7DA45C4F9C843CE</Id>
+    <Name>The_First_Package</Name>
+    <Version>8</Version>
+  </SpaPackageIdentity>
+  <Description />
+  <CategoryIdentity>
+    <Id>2131F93223F1496692629BC9C83DA973</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Classification Project</Name>
+  </CategoryIdentity>
+  <LastModifiedDateTime>2022-11-22T01:22:57.71</LastModifiedDateTime>
+  <LastModifiedResource>
+    <Id>A67F454256EC463BA3CE993682D61A12</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Anirudh Vancha</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedResource>
+  <Data>
+    <Processes>
+      <ProcessIdentity>
+        <Id>0E67A49D28B61D727E963DFAEEF53F98</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>16</Version>
+        <Name>Instruction Classification</Name>
+      </ProcessIdentity>
+    </Processes>
+    <ProcessExportOption>
+      <ExportResources>false</ExportResources>
+      <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+      <ExportResourcesExtensions>false</ExportResourcesExtensions>
+      <ExportCategories>false</ExportCategories>
+      <WithCategoryParentage>false</WithCategoryParentage>
+      <GeneralizedExport>false</GeneralizedExport>
+      <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+      <ExportCaseFragments>false</ExportCaseFragments>
+      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+      <ExportGlobalDataModels>false</ExportGlobalDataModels>
+      <ExportProcessDataModels>false</ExportProcessDataModels>
+      <ExportType>None</ExportType>
+      <Version>0</Version>
+      <ExportServerVariables>true</ExportServerVariables>
+      <XmlExpressionVariables />
+      <PreloadScript>1</PreloadScript>
+      <SleepDuration>0</SleepDuration>
+      <CategoryIds />
+      <ProcessDocument>false</ProcessDocument>
+      <ProcessViewer>false</ProcessViewer>
+      <DotNetActivityType>0</DotNetActivityType>
+      <Projects />
+      <AllProcessVariables />
+      <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+      <SiteDetailsRequired>false</SiteDetailsRequired>
+      <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+      <DocumentTemplates />
+      <Assets />
+      <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+      <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+      <IsSpaExport>false</IsSpaExport>
+      <ProcessType>BusinessProcess</ProcessType>
+      <ProtectedItems />
+      <ExportPageRenditions>false</ExportPageRenditions>
+      <ExportReportingTags>false</ExportReportingTags>
+      <ExportTestPlans>false</ExportTestPlans>
+      <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+      <IsGitExport>true</IsGitExport>
+    </ProcessExportOption>
+    <WorkAllocationRules />
+    <Skins />
+    <BusinessRules>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>D13F97778010431EB4A7A7C784D9A02D</Id>
+        <Name>New business rule</Name>
+        <Version>8</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>D98B4FA936564C8AA87775223DCA1FEC</Id>
+        <Name>New business rule5</Name>
+        <Version>13</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>9D95A82038754F4C9D12F2CF96143886</Id>
+        <Name>New business rule3</Name>
+        <Version>2</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>6781FD8BE9F8495CA95DEBEA47509B2C</Id>
+        <Name>New business rule1</Name>
+        <Version>1</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>0520856F8F424D43833BFF744EFBBD7D</Id>
+        <Name>New business rule4</Name>
+        <Version>1</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+    </BusinessRules>
+    <Assets>
+      <AssetIdentity>
+        <Id>0AD0463A298C4400B3EF73F1056BC556</Id>
+        <Name>AgilityActivity6.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>0B8DFEB9DEF047E78B53EC2BE6E12A25</Id>
+        <Name>AgilityActivity3.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>137DD96D9711487B8465C8CA043A2821</Id>
+        <Name>AgilityActivity5.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>2375099610B54DF699C7EB88D339F1AC</Id>
+        <Name>AgilityActivity5_3.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>3DC0799433C04F72B440AA8C6D05B847</Id>
+        <Name>AgilityActivity5_1.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>3E54D0237F7F42FB99512A62DDDC535B</Id>
+        <Name>Activity6_3.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>6A106B76AD5C4EE89AFEB411D4C149B1</Id>
+        <Name>KofaxTotalAgilityActivities1.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>99E8D6214D7045B685C5298518641ADD</Id>
+        <Name>Activity6_2.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>B248FE92A9F3413BBB6C0EA68E1B45FB</Id>
+        <Name>KofaxTotalAgility2.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>D1E6B220165040309D017229077E8D4C</Id>
+        <Name>AgilityActivity5_2.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>D33A93037BEB417A966412A3DAFF463C</Id>
+        <Name>AgilityActivities4.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>D5620C3CA42248568A0F0F43D5112960</Id>
+        <Name>Activity6_1.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>EB342E782D334686BAC6016D1A75563E</Id>
+        <Name>Activity6_4.dll</Name>
+        <AssetType>DotNetAssembly</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+    </Assets>
+    <Forms>
+      <FormIdentity>
+        <Id>36CA57F067EB4C37A3DB60E0E697559F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Instruction Classification_Validation</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>F60DFD703F15471B8976496F71CBC4C6</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Instruction Classification_Document Review</Name>
+        <Version>1</Version>
+      </FormIdentity>
+    </Forms>
+    <FormTemplates />
+    <FormExportOptions>
+      <ExportHeader>false</ExportHeader>
+      <ExportNavigation>false</ExportNavigation>
+      <ExportGlobalVariables>true</ExportGlobalVariables>
+      <ExportWebServices>false</ExportWebServices>
+      <ExportBusinessRules>false</ExportBusinessRules>
+      <ExportSecurityTokens>false</ExportSecurityTokens>
+      <ExportSecurityRoles>false</ExportSecurityRoles>
+      <ExportRoleMembers>false</ExportRoleMembers>
+      <ProcessExportOptions>
+        <ExportResources>false</ExportResources>
+        <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+        <ExportResourcesExtensions>false</ExportResourcesExtensions>
+        <ExportCategories>false</ExportCategories>
+        <WithCategoryParentage>false</WithCategoryParentage>
+        <GeneralizedExport>false</GeneralizedExport>
+        <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+        <ExportCaseFragments>false</ExportCaseFragments>
+        <ExportTemplateSkins>false</ExportTemplateSkins>
+        <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+        <ExportGlobalDataModels>false</ExportGlobalDataModels>
+        <ExportProcessDataModels>false</ExportProcessDataModels>
+        <ExportType>CombineAssociatedMaps</ExportType>
+        <Version>0</Version>
+        <ExportServerVariables>true</ExportServerVariables>
+        <XmlExpressionVariables />
+        <PreloadScript>1</PreloadScript>
+        <SleepDuration>0</SleepDuration>
+        <CategoryIds />
+        <ProcessDocument>false</ProcessDocument>
+        <ProcessViewer>false</ProcessViewer>
+        <DotNetActivityType>0</DotNetActivityType>
+        <Projects />
+        <AllProcessVariables />
+        <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+        <SiteDetailsRequired>false</SiteDetailsRequired>
+        <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+        <DocumentTemplates />
+        <Assets />
+        <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+        <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+        <IsSpaExport>false</IsSpaExport>
+        <ProcessType>BusinessProcess</ProcessType>
+        <ProtectedItems />
+        <ExportPageRenditions>false</ExportPageRenditions>
+        <ExportReportingTags>false</ExportReportingTags>
+        <ExportTestPlans>false</ExportTestPlans>
+        <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+        <IsGitExport>false</IsGitExport>
+      </ProcessExportOptions>
+      <IsSpaExport>false</IsSpaExport>
+      <ProtectedItems />
+    </FormExportOptions>
+    <Navigations />
+    <Sites />
+    <Themes />
+    <Languages />
+    <Lookups />
+    <Resources />
+    <Entities />
+    <WorkTypes />
+    <Checklists />
+    <DataModels />
+    <Folders>
+      <FolderTypeIdentity>
+        <Id>8C98E007E71E166BF424440871FAA593</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Version>1</Version>
+        <Name>Instruction Classification</Name>
+      </FolderTypeIdentity>
+    </Folders>
+    <ExtractionGroups>
+      <DocumentGroupIdentity>
+        <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>21</Version>
+        <Name>Form_Type</Name>
+      </DocumentGroupIdentity>
+    </ExtractionGroups>
+    <ClassificationGroups>
+      <ClassificationGroupIdentity>
+        <Id>0B1520E7217CF8272E799F1977C9B77C</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>74</Version>
+        <Name>Instruction Classification</Name>
+      </ClassificationGroupIdentity>
+    </ClassificationGroups>
+    <Formatters />
+    <FieldValidators />
+    <ChecklistItems />
+    <Events />
+    <Targets />
+    <Alerts />
+    <AlertExportOption>
+      <ExportAssociatedProcess>false</ExportAssociatedProcess>
+    </AlertExportOption>
+    <Categories>
+      <CategoryIdentity>
+        <Id>2131F93223F1496692629BC9C83DA973</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Classification Project</Name>
+      </CategoryIdentity>
+    </Categories>
+    <ScanVrsProfiles />
+    <PdfGenerationProfiles />
+    <DocumentConversionProfiles />
+    <JobSchedules />
+    <RegularExpressions />
+    <Personas />
+    <SeparationProfiles />
+    <Queries />
+    <ShowProcessAssociations>true</ShowProcessAssociations>
+    <ShowFormAssociations>true</ShowFormAssociations>
+    <SystemExportOptions>
+      <IncludeNoteTypes>false</IncludeNoteTypes>
+      <IncludeHotKeys>false</IncludeHotKeys>
+      <IncludePageRenditions>false</IncludePageRenditions>
+      <IncludeNodeColors>false</IncludeNodeColors>
+      <IncludeReportingTags>false</IncludeReportingTags>
+      <IncludeErrorCodes>false</IncludeErrorCodes>
+    </SystemExportOptions>
+    <ShowCategoryAssociations>true</ShowCategoryAssociations>
+    <Packages />
+    <ProtectedItemsData>
+      <ProtectAllItems>false</ProtectAllItems>
+      <ProtectedItems />
+    </ProtectedItemsData>
+    <DocumentTypeVariantCollection />
+    <MissingAssociations />
+    <IncludeRoleMembers>false</IncludeRoleMembers>
+    <IncludeDevices>false</IncludeDevices>
+    <IncludeDeviceProfiles>false</IncludeDeviceProfiles>
+    <IncludeDeviceSettings>false</IncludeDeviceSettings>
+    <Deployments />
+    <ErrorList />
+    <CaptureControlLayouts />
+    <CustomServiceIdentities />
+    <CustomServiceGroupIdentities />
+    <CaptureSolutionIdentity>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </CaptureSolutionIdentity>
+    <ImportConnections />
+    <ImportSources />
+    <OAuthServers />
+    <QuickApp>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </QuickApp>
+    <PackageItemAssociations>
+      <PackageItemAssociation>
+        <Id>0E67A49D28B61D727E963DFAEEF53F98</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>0B1520E7217CF8272E799F1977C9B77C</Id>
+            <ItemType>16</ItemType>
+            <Name>Instruction Classification</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+            <ItemType>36</ItemType>
+            <Name>WORKQUEUE_FORM</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
+            <ItemType>18</ItemType>
+            <Name>Form_Type</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>8C98E007E71E166BF424440871FAA593</Id>
+            <ItemType>19</ItemType>
+            <Name>Instruction Classification</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>F60DFD703F15471B8976496F71CBC4C6</Id>
+            <ItemType>6</ItemType>
+            <Name>Instruction Classification_Document Review</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>36CA57F067EB4C37A3DB60E0E697559F</Id>
+            <ItemType>6</ItemType>
+            <Name>Instruction Classification_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>0E67A49D28B61D727E963DFAEEF53F98</Id>
+            <ItemType>0</ItemType>
+            <Name>Instruction Classification</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SPP_SYSTEM_SESSION_ID</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>F60DFD703F15471B8976496F71CBC4C6</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>36CA57F067EB4C37A3DB60E0E697559F</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <Name />
+        <ItemType>36</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+        <Name />
+        <ItemType>36</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>0B1520E7217CF8272E799F1977C9B77C</Id>
+        <Name />
+        <ItemType>16</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>0B1520E7217CF8272E799F1977C9B77C</Id>
+            <ItemType>16</ItemType>
+            <Name>Instruction Classification</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
+            <ItemType>18</ItemType>
+            <Name>Form_Type</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
+        <Name />
+        <ItemType>18</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
+            <ItemType>18</ItemType>
+            <Name>Form_Type</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>8C98E007E71E166BF424440871FAA593</Id>
+        <Name />
+        <ItemType>19</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>8C98E007E71E166BF424440871FAA593</Id>
+            <ItemType>19</ItemType>
+            <Name>Instruction Classification</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>SPP_SYSTEM_SESSION_ID</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>2131F93223F1496692629BC9C83DA973</Id>
+        <Name />
+        <ItemType>28</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>0AD0463A298C4400B3EF73F1056BC556</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivity6.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>0B8DFEB9DEF047E78B53EC2BE6E12A25</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivity3.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>137DD96D9711487B8465C8CA043A2821</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivity5.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2375099610B54DF699C7EB88D339F1AC</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivity5_3.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>3DC0799433C04F72B440AA8C6D05B847</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivity5_1.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>3E54D0237F7F42FB99512A62DDDC535B</Id>
+            <ItemType>3</ItemType>
+            <Name>Activity6_3.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>6A106B76AD5C4EE89AFEB411D4C149B1</Id>
+            <ItemType>3</ItemType>
+            <Name>KofaxTotalAgilityActivities1.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>99E8D6214D7045B685C5298518641ADD</Id>
+            <ItemType>3</ItemType>
+            <Name>Activity6_2.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>B248FE92A9F3413BBB6C0EA68E1B45FB</Id>
+            <ItemType>3</ItemType>
+            <Name>KofaxTotalAgility2.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>D1E6B220165040309D017229077E8D4C</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivity5_2.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>D33A93037BEB417A966412A3DAFF463C</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivities4.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>D5620C3CA42248568A0F0F43D5112960</Id>
+            <ItemType>3</ItemType>
+            <Name>Activity6_1.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>EB342E782D334686BAC6016D1A75563E</Id>
+            <ItemType>3</ItemType>
+            <Name>Activity6_4.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>D13F97778010431EB4A7A7C784D9A02D</Id>
+            <ItemType>1</ItemType>
+            <Name>New business rule</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>D98B4FA936564C8AA87775223DCA1FEC</Id>
+            <ItemType>1</ItemType>
+            <Name>New business rule5</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>9D95A82038754F4C9D12F2CF96143886</Id>
+            <ItemType>1</ItemType>
+            <Name>New business rule3</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>6781FD8BE9F8495CA95DEBEA47509B2C</Id>
+            <ItemType>1</ItemType>
+            <Name>New business rule1</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>0520856F8F424D43833BFF744EFBBD7D</Id>
+            <ItemType>1</ItemType>
+            <Name>New business rule4</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>0B1520E7217CF8272E799F1977C9B77C</Id>
+            <ItemType>16</ItemType>
+            <Name>Instruction Classification</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+            <ItemType>36</ItemType>
+            <Name>WORKQUEUE_FORM</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
+            <ItemType>18</ItemType>
+            <Name>Form_Type</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>8C98E007E71E166BF424440871FAA593</Id>
+            <ItemType>19</ItemType>
+            <Name>Instruction Classification</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>F60DFD703F15471B8976496F71CBC4C6</Id>
+            <ItemType>6</ItemType>
+            <Name>Instruction Classification_Document Review</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>36CA57F067EB4C37A3DB60E0E697559F</Id>
+            <ItemType>6</ItemType>
+            <Name>Instruction Classification_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>0E67A49D28B61D727E963DFAEEF53F98</Id>
+            <ItemType>0</ItemType>
+            <Name>Instruction Classification</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SPP_SYSTEM_SESSION_ID</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>328BE9468124416DB7DA45C4F9C843CE</Id>
+            <ItemType>33</ItemType>
+            <Name>The_First_Package</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>D13F97778010431EB4A7A7C784D9A02D</Id>
+        <Name />
+        <ItemType>1</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>D13F97778010431EB4A7A7C784D9A02D</Id>
+            <ItemType>1</ItemType>
+            <Name>New business rule</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>9D95A82038754F4C9D12F2CF96143886</Id>
+        <Name />
+        <ItemType>1</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>9D95A82038754F4C9D12F2CF96143886</Id>
+            <ItemType>1</ItemType>
+            <Name>New business rule3</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>6781FD8BE9F8495CA95DEBEA47509B2C</Id>
+        <Name />
+        <ItemType>1</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>6781FD8BE9F8495CA95DEBEA47509B2C</Id>
+            <ItemType>1</ItemType>
+            <Name>New business rule1</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>0520856F8F424D43833BFF744EFBBD7D</Id>
+        <Name />
+        <ItemType>1</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>0520856F8F424D43833BFF744EFBBD7D</Id>
+            <ItemType>1</ItemType>
+            <Name>New business rule4</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>0AD0463A298C4400B3EF73F1056BC556</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>0AD0463A298C4400B3EF73F1056BC556</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivity6.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>0B8DFEB9DEF047E78B53EC2BE6E12A25</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>0B8DFEB9DEF047E78B53EC2BE6E12A25</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivity3.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>137DD96D9711487B8465C8CA043A2821</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>137DD96D9711487B8465C8CA043A2821</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivity5.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>2375099610B54DF699C7EB88D339F1AC</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>2375099610B54DF699C7EB88D339F1AC</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivity5_3.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>3DC0799433C04F72B440AA8C6D05B847</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>3DC0799433C04F72B440AA8C6D05B847</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivity5_1.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>3E54D0237F7F42FB99512A62DDDC535B</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>3E54D0237F7F42FB99512A62DDDC535B</Id>
+            <ItemType>3</ItemType>
+            <Name>Activity6_3.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>6A106B76AD5C4EE89AFEB411D4C149B1</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>6A106B76AD5C4EE89AFEB411D4C149B1</Id>
+            <ItemType>3</ItemType>
+            <Name>KofaxTotalAgilityActivities1.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>99E8D6214D7045B685C5298518641ADD</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>99E8D6214D7045B685C5298518641ADD</Id>
+            <ItemType>3</ItemType>
+            <Name>Activity6_2.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>B248FE92A9F3413BBB6C0EA68E1B45FB</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>B248FE92A9F3413BBB6C0EA68E1B45FB</Id>
+            <ItemType>3</ItemType>
+            <Name>KofaxTotalAgility2.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>D1E6B220165040309D017229077E8D4C</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>D1E6B220165040309D017229077E8D4C</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivity5_2.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>D33A93037BEB417A966412A3DAFF463C</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>D33A93037BEB417A966412A3DAFF463C</Id>
+            <ItemType>3</ItemType>
+            <Name>AgilityActivities4.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>D5620C3CA42248568A0F0F43D5112960</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>D5620C3CA42248568A0F0F43D5112960</Id>
+            <ItemType>3</ItemType>
+            <Name>Activity6_1.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>EB342E782D334686BAC6016D1A75563E</Id>
+        <Name />
+        <ItemType>4</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>EB342E782D334686BAC6016D1A75563E</Id>
+            <ItemType>3</ItemType>
+            <Name>Activity6_4.dll</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>328BE9468124416DB7DA45C4F9C843CE</Id>
+        <Name />
+        <ItemType>33</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+    </PackageItemAssociations>
+    <GlobalVariables>
+      <SessionVariableIdentity>
+        <Name>SESSION_ID</Name>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>WORKQUEUE_FORM</Name>
+        <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+    </GlobalVariables>
+    <ServerVariables>
+      <VariableIdentity>
+        <Id>SPP_SYSTEM_SESSION_ID</Id>
+        <Version>0</Version>
+        <DisplayName>SPP_SYSTEM_SESSION_ID</DisplayName>
+      </VariableIdentity>
+    </ServerVariables>
+    <DotNetReferences />
+  </Data>
+  <Comments />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <PermissionType>NoAccess</PermissionType>
+</SpaPackage>
