@@ -26,7 +26,7 @@
       <ProcessIdentity>
         <Id>0E67A49D28B61D727E963DFAEEF53F98</Id>
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
-        <Version>16</Version>
+        <Version>37</Version>
         <Name>Instruction Classification</Name>
       </ProcessIdentity>
     </Processes>
@@ -293,7 +293,7 @@
       <DocumentGroupIdentity>
         <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
-        <Version>-1</Version>
+        <Version>30</Version>
         <Name>Form_Type</Name>
       </DocumentGroupIdentity>
     </ExtractionGroups>
@@ -301,7 +301,7 @@
       <ClassificationGroupIdentity>
         <Id>0B1520E7217CF8272E799F1977C9B77C</Id>
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
-        <Version>74</Version>
+        <Version>94</Version>
         <Name>Instruction Classification</Name>
       </ClassificationGroupIdentity>
     </ClassificationGroups>

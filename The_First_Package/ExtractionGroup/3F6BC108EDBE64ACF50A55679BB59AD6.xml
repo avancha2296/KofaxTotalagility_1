@@ -3,7 +3,7 @@
   <Identity>
     <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
-    <Version>21</Version>
+    <Version>30</Version>
     <Name>Form_Type</Name>
   </Identity>
   <Name>Form_Type</Name>
@@ -19,7 +19,7 @@
     <DocumentType>
       <Identity>
         <Id>0A41ACC36FEFCDA484EF1CB288BCAC21</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name>8825</Name>
       </Identity>
       <Name>8825</Name>
@@ -40,8 +40,12 @@
               <Name>Year</Name>
               <DisplayName>Year</DisplayName>
               <Description />
-              <FieldType>Text</FieldType>
+              <FieldType>Number</FieldType>
               <Validators />
+              <Formatter>
+                <Id />
+                <Name />
+              </Formatter>
               <Verification>
                 <IsVerificationDisplayField>false</IsVerificationDisplayField>
                 <VerificationMode>Confirm</VerificationMode>
@@ -64,7 +68,7 @@
               <MaskValueInAnalytics>false</MaskValueInAnalytics>
               <MaskImageForHiddenField>false</MaskImageForHiddenField>
               <IsPredefinedColumn>false</IsPredefinedColumn>
-              <DefaultValue xsi:type="xsd:string" />
+              <DefaultValue xsi:type="xsd:int">0</DefaultValue>
               <ChoiceItemsSource />
               <Lookup />
               <IsDefaultValueOverridden>false</IsDefaultValueOverridden>
@@ -79,6 +83,10 @@
               <Description />
               <FieldType>Text</FieldType>
               <Validators />
+              <Formatter>
+                <Id />
+                <Name />
+              </Formatter>
               <Verification>
                 <IsVerificationDisplayField>false</IsVerificationDisplayField>
                 <VerificationMode>Confirm</VerificationMode>
@@ -116,6 +124,10 @@
               <Description />
               <FieldType>Text</FieldType>
               <Validators />
+              <Formatter>
+                <Id />
+                <Name />
+              </Formatter>
               <Verification>
                 <IsVerificationDisplayField>false</IsVerificationDisplayField>
                 <VerificationMode>Confirm</VerificationMode>
@@ -129,7 +141,7 @@
               <IsFormatterOverridden>false</IsFormatterOverridden>
               <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
               <Editable>false</Editable>
-              <IsOptional>false</IsOptional>
+              <IsOptional>true</IsOptional>
               <FormatterInputs />
               <FieldGroupName />
               <FieldGroupId />
@@ -179,7 +191,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -195,7 +207,28 @@
       <NameTemplate>[DocumentType]</NameTemplate>
       <OnlineLearningFolderId />
       <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
-      <Forms />
+      <Forms>
+        <ScanForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </ScanForm>
+        <ValidationForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </ValidationForm>
+        <VerificationForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </VerificationForm>
+        <DocumentReviewForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </DocumentReviewForm>
+      </Forms>
       <AvailableForManualClassification>true</AvailableForManualClassification>
       <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
       <TemplateImage>
@@ -221,7 +254,7 @@
     <DocumentType>
       <Identity>
         <Id>126050576870D6DC15779D6C3B8A4232</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name>1040C</Name>
       </Identity>
       <Name>1040C</Name>
@@ -242,7 +275,7 @@
               <Name>Page1_Year</Name>
               <DisplayName>Page1_Year</DisplayName>
               <Description />
-              <FieldType>Text</FieldType>
+              <FieldType>Number</FieldType>
               <Validators />
               <Formatter>
                 <Id />
@@ -270,7 +303,7 @@
               <MaskValueInAnalytics>false</MaskValueInAnalytics>
               <MaskImageForHiddenField>false</MaskImageForHiddenField>
               <IsPredefinedColumn>false</IsPredefinedColumn>
-              <DefaultValue xsi:type="xsd:string" />
+              <DefaultValue xsi:type="xsd:int">0</DefaultValue>
               <ChoiceItemsSource />
               <Lookup />
               <IsDefaultValueOverridden>false</IsDefaultValueOverridden>
@@ -721,7 +754,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -784,7 +817,7 @@
     <DocumentType>
       <Identity>
         <Id>37D438A24B48388F6B3FBAE7D328A1E6</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name>1120-G</Name>
       </Identity>
       <Name>1120-G</Name>
@@ -799,54 +832,13 @@
           <Fields>
             <CaptureField xsi:type="SimpleField">
               <Identity>
-                <Id>7D354FF6E8F7470DB1C1B7239308AF77</Id>
-                <Name />
-              </Identity>
-              <Name>Part2_Section4</Name>
-              <DisplayName>Part2_Section4</DisplayName>
-              <Description />
-              <FieldType>Text</FieldType>
-              <Validators />
-              <Formatter>
-                <Id />
-                <Name />
-              </Formatter>
-              <Verification>
-                <IsVerificationDisplayField>false</IsVerificationDisplayField>
-                <VerificationMode>Confirm</VerificationMode>
-                <CanChangeFieldValue>true</CanChangeFieldValue>
-                <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
-              </Verification>
-              <IsInherited>false</IsInherited>
-              <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
-              <AlwaysValid>false</AlwaysValid>
-              <IsOverridden>false</IsOverridden>
-              <IsFormatterOverridden>false</IsFormatterOverridden>
-              <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
-              <Editable>false</Editable>
-              <IsOptional>false</IsOptional>
-              <FormatterInputs />
-              <FieldGroupName />
-              <FieldGroupId />
-              <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
-              <AllFieldChanges>false</AllFieldChanges>
-              <MaskValueInAnalytics>false</MaskValueInAnalytics>
-              <MaskImageForHiddenField>false</MaskImageForHiddenField>
-              <IsPredefinedColumn>false</IsPredefinedColumn>
-              <DefaultValue xsi:type="xsd:string" />
-              <ChoiceItemsSource />
-              <Lookup />
-              <IsDefaultValueOverridden>false</IsDefaultValueOverridden>
-            </CaptureField>
-            <CaptureField xsi:type="SimpleField">
-              <Identity>
                 <Id>C1F93F3ACD5FF5A8C4AF9B48F8788726</Id>
                 <Name />
               </Identity>
               <Name>Year</Name>
               <DisplayName>Year</DisplayName>
               <Description />
-              <FieldType>Text</FieldType>
+              <FieldType>Number</FieldType>
               <Validators />
               <Formatter>
                 <Id />
@@ -874,7 +866,7 @@
               <MaskValueInAnalytics>false</MaskValueInAnalytics>
               <MaskImageForHiddenField>false</MaskImageForHiddenField>
               <IsPredefinedColumn>false</IsPredefinedColumn>
-              <DefaultValue xsi:type="xsd:string" />
+              <DefaultValue xsi:type="xsd:int">0</DefaultValue>
               <ChoiceItemsSource />
               <Lookup />
               <IsDefaultValueOverridden>false</IsDefaultValueOverridden>
@@ -907,6 +899,47 @@
               <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
               <Editable>false</Editable>
               <IsOptional>false</IsOptional>
+              <FormatterInputs />
+              <FieldGroupName />
+              <FieldGroupId />
+              <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+              <AllFieldChanges>false</AllFieldChanges>
+              <MaskValueInAnalytics>false</MaskValueInAnalytics>
+              <MaskImageForHiddenField>false</MaskImageForHiddenField>
+              <IsPredefinedColumn>false</IsPredefinedColumn>
+              <DefaultValue xsi:type="xsd:string" />
+              <ChoiceItemsSource />
+              <Lookup />
+              <IsDefaultValueOverridden>false</IsDefaultValueOverridden>
+            </CaptureField>
+            <CaptureField xsi:type="SimpleField">
+              <Identity>
+                <Id>7D354FF6E8F7470DB1C1B7239308AF77</Id>
+                <Name />
+              </Identity>
+              <Name>Part2_Section4</Name>
+              <DisplayName>Part2_Section4</DisplayName>
+              <Description />
+              <FieldType>Text</FieldType>
+              <Validators />
+              <Formatter>
+                <Id />
+                <Name />
+              </Formatter>
+              <Verification>
+                <IsVerificationDisplayField>false</IsVerificationDisplayField>
+                <VerificationMode>Confirm</VerificationMode>
+                <CanChangeFieldValue>true</CanChangeFieldValue>
+                <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+              </Verification>
+              <IsInherited>false</IsInherited>
+              <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+              <AlwaysValid>false</AlwaysValid>
+              <IsOverridden>false</IsOverridden>
+              <IsFormatterOverridden>false</IsFormatterOverridden>
+              <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
+              <Editable>false</Editable>
+              <IsOptional>true</IsOptional>
               <FormatterInputs />
               <FieldGroupName />
               <FieldGroupId />
@@ -956,7 +989,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -1019,7 +1052,7 @@
     <DocumentType>
       <Identity>
         <Id>3BE5CC0BCCB32AE816AF203283CC0D61</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name>1120-S-K</Name>
       </Identity>
       <Name>1120-S-K</Name>
@@ -1040,7 +1073,7 @@
               <Name>Year</Name>
               <DisplayName>Year</DisplayName>
               <Description />
-              <FieldType>Text</FieldType>
+              <FieldType>Number</FieldType>
               <Validators />
               <Formatter>
                 <Id />
@@ -1068,7 +1101,7 @@
               <MaskValueInAnalytics>false</MaskValueInAnalytics>
               <MaskImageForHiddenField>false</MaskImageForHiddenField>
               <IsPredefinedColumn>false</IsPredefinedColumn>
-              <DefaultValue xsi:type="xsd:string" />
+              <DefaultValue xsi:type="xsd:int">0</DefaultValue>
               <ChoiceItemsSource />
               <Lookup />
               <IsDefaultValueOverridden>false</IsDefaultValueOverridden>
@@ -1355,7 +1388,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -1418,7 +1451,7 @@
     <DocumentType>
       <Identity>
         <Id>6BC3441104B86A0A3DA812CEA33CA118</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name>1120-S</Name>
       </Identity>
       <Name>1120-S</Name>
@@ -1439,7 +1472,7 @@
               <Name>Year</Name>
               <DisplayName>Year</DisplayName>
               <Description />
-              <FieldType>Text</FieldType>
+              <FieldType>Number</FieldType>
               <Validators />
               <Formatter>
                 <Id />
@@ -1467,7 +1500,7 @@
               <MaskValueInAnalytics>false</MaskValueInAnalytics>
               <MaskImageForHiddenField>false</MaskImageForHiddenField>
               <IsPredefinedColumn>false</IsPredefinedColumn>
-              <DefaultValue xsi:type="xsd:string" />
+              <DefaultValue xsi:type="xsd:int">0</DefaultValue>
               <ChoiceItemsSource />
               <Lookup />
               <IsDefaultValueOverridden>false</IsDefaultValueOverridden>
@@ -1609,6 +1642,43 @@
                 <Id />
                 <Name />
               </Formatter>
+              <Verification>
+                <IsVerificationDisplayField>false</IsVerificationDisplayField>
+                <VerificationMode>Confirm</VerificationMode>
+                <CanChangeFieldValue>true</CanChangeFieldValue>
+                <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+              </Verification>
+              <IsInherited>false</IsInherited>
+              <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+              <AlwaysValid>false</AlwaysValid>
+              <IsOverridden>false</IsOverridden>
+              <IsFormatterOverridden>false</IsFormatterOverridden>
+              <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
+              <Editable>false</Editable>
+              <IsOptional>true</IsOptional>
+              <FormatterInputs />
+              <FieldGroupName />
+              <FieldGroupId />
+              <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+              <AllFieldChanges>false</AllFieldChanges>
+              <MaskValueInAnalytics>false</MaskValueInAnalytics>
+              <MaskImageForHiddenField>false</MaskImageForHiddenField>
+              <IsPredefinedColumn>false</IsPredefinedColumn>
+              <DefaultValue xsi:type="xsd:int">0</DefaultValue>
+              <ChoiceItemsSource />
+              <Lookup />
+              <IsDefaultValueOverridden>false</IsDefaultValueOverridden>
+            </CaptureField>
+            <CaptureField xsi:type="SimpleField">
+              <Identity>
+                <Id>0CF7E7F6017D64C26B73E0CD807103D5</Id>
+                <Name />
+              </Identity>
+              <Name>Depletion_15</Name>
+              <DisplayName>Depletion_15</DisplayName>
+              <Description />
+              <FieldType>Number</FieldType>
+              <Validators />
               <Verification>
                 <IsVerificationDisplayField>false</IsVerificationDisplayField>
                 <VerificationMode>Confirm</VerificationMode>
@@ -1795,7 +1865,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -1858,7 +1928,7 @@
     <DocumentType>
       <Identity>
         <Id>6EFCF729AC4D39EAA4FFC6F897C6E682</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name>1065</Name>
       </Identity>
       <Name>1065</Name>
@@ -1873,13 +1943,13 @@
           <Fields>
             <CaptureField xsi:type="SimpleField">
               <Identity>
-                <Id>2BB213AC119E49F86E67CD2E41CB1CD0</Id>
+                <Id>9479EF33CA1A719BA8B1D4AA872325EC</Id>
                 <Name />
               </Identity>
-              <Name>Page1_Business_Name</Name>
-              <DisplayName>Page1_Business_Name</DisplayName>
+              <Name>Page1_Year</Name>
+              <DisplayName>Page1_Year</DisplayName>
               <Description />
-              <FieldType>Text</FieldType>
+              <FieldType>Number</FieldType>
               <Validators />
               <Formatter>
                 <Id />
@@ -1907,18 +1977,18 @@
               <MaskValueInAnalytics>false</MaskValueInAnalytics>
               <MaskImageForHiddenField>false</MaskImageForHiddenField>
               <IsPredefinedColumn>false</IsPredefinedColumn>
-              <DefaultValue xsi:type="xsd:string" />
+              <DefaultValue xsi:type="xsd:int">0</DefaultValue>
               <ChoiceItemsSource />
               <Lookup />
               <IsDefaultValueOverridden>false</IsDefaultValueOverridden>
             </CaptureField>
             <CaptureField xsi:type="SimpleField">
               <Identity>
-                <Id>9479EF33CA1A719BA8B1D4AA872325EC</Id>
+                <Id>2BB213AC119E49F86E67CD2E41CB1CD0</Id>
                 <Name />
               </Identity>
-              <Name>Page1_Year</Name>
-              <DisplayName>Page1_Year</DisplayName>
+              <Name>Page1_Business_Name</Name>
+              <DisplayName>Page1_Business_Name</DisplayName>
               <Description />
               <FieldType>Text</FieldType>
               <Validators />
@@ -2125,7 +2195,7 @@
               <Name>Line17</Name>
               <DisplayName>Line17</DisplayName>
               <Description />
-              <FieldType>Text</FieldType>
+              <FieldType>Number</FieldType>
               <Validators />
               <Formatter>
                 <Id />
@@ -2144,7 +2214,7 @@
               <IsFormatterOverridden>false</IsFormatterOverridden>
               <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
               <Editable>false</Editable>
-              <IsOptional>false</IsOptional>
+              <IsOptional>true</IsOptional>
               <FormatterInputs />
               <FieldGroupName />
               <FieldGroupId />
@@ -2153,7 +2223,7 @@
               <MaskValueInAnalytics>false</MaskValueInAnalytics>
               <MaskImageForHiddenField>false</MaskImageForHiddenField>
               <IsPredefinedColumn>false</IsPredefinedColumn>
-              <DefaultValue xsi:type="xsd:string" />
+              <DefaultValue xsi:type="xsd:int">0</DefaultValue>
               <ChoiceItemsSource />
               <Lookup />
               <IsDefaultValueOverridden>false</IsDefaultValueOverridden>
@@ -2317,7 +2387,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -2380,7 +2450,7 @@
     <DocumentType>
       <Identity>
         <Id>9AB59D1DE4467214319D7E52C25BA7C2</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name>1120</Name>
       </Identity>
       <Name>1120</Name>
@@ -2444,6 +2514,10 @@
               <Description />
               <FieldType>Text</FieldType>
               <Validators />
+              <Formatter>
+                <Id />
+                <Name />
+              </Formatter>
               <Verification>
                 <IsVerificationDisplayField>false</IsVerificationDisplayField>
                 <VerificationMode>Confirm</VerificationMode>
@@ -2497,7 +2571,7 @@
               <IsFormatterOverridden>false</IsFormatterOverridden>
               <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
               <Editable>false</Editable>
-              <IsOptional>false</IsOptional>
+              <IsOptional>true</IsOptional>
               <FormatterInputs />
               <FieldGroupName />
               <FieldGroupId />
@@ -2538,7 +2612,7 @@
               <IsFormatterOverridden>false</IsFormatterOverridden>
               <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
               <Editable>false</Editable>
-              <IsOptional>false</IsOptional>
+              <IsOptional>true</IsOptional>
               <FormatterInputs />
               <FieldGroupName />
               <FieldGroupId />
@@ -2579,7 +2653,7 @@
               <IsFormatterOverridden>false</IsFormatterOverridden>
               <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
               <Editable>false</Editable>
-              <IsOptional>false</IsOptional>
+              <IsOptional>true</IsOptional>
               <FormatterInputs />
               <FieldGroupName />
               <FieldGroupId />
@@ -2620,7 +2694,7 @@
               <IsFormatterOverridden>false</IsFormatterOverridden>
               <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
               <Editable>false</Editable>
-              <IsOptional>false</IsOptional>
+              <IsOptional>true</IsOptional>
               <FormatterInputs />
               <FieldGroupName />
               <FieldGroupId />
@@ -2661,7 +2735,7 @@
               <IsFormatterOverridden>false</IsFormatterOverridden>
               <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
               <Editable>false</Editable>
-              <IsOptional>false</IsOptional>
+              <IsOptional>true</IsOptional>
               <FormatterInputs />
               <FieldGroupName />
               <FieldGroupId />
@@ -2702,7 +2776,7 @@
               <IsFormatterOverridden>false</IsFormatterOverridden>
               <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
               <Editable>false</Editable>
-              <IsOptional>false</IsOptional>
+              <IsOptional>true</IsOptional>
               <FormatterInputs />
               <FieldGroupName />
               <FieldGroupId />
@@ -2743,7 +2817,7 @@
               <IsFormatterOverridden>false</IsFormatterOverridden>
               <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
               <Editable>false</Editable>
-              <IsOptional>false</IsOptional>
+              <IsOptional>true</IsOptional>
               <FormatterInputs />
               <FieldGroupName />
               <FieldGroupId />
@@ -2784,7 +2858,7 @@
               <IsFormatterOverridden>false</IsFormatterOverridden>
               <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
               <Editable>false</Editable>
-              <IsOptional>false</IsOptional>
+              <IsOptional>true</IsOptional>
               <FormatterInputs />
               <FieldGroupName />
               <FieldGroupId />
@@ -2825,7 +2899,7 @@
               <IsFormatterOverridden>false</IsFormatterOverridden>
               <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
               <Editable>false</Editable>
-              <IsOptional>false</IsOptional>
+              <IsOptional>true</IsOptional>
               <FormatterInputs />
               <FieldGroupName />
               <FieldGroupId />
@@ -2875,7 +2949,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -2938,7 +3012,7 @@
     <DocumentType>
       <Identity>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name />
       </Identity>
       <Name />
@@ -3022,7 +3096,7 @@
     <DocumentType>
       <Identity>
         <Id>BFAB45E12934D9B44007A73F58CC670D</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name>1065-K1</Name>
       </Identity>
       <Name>1065-K1</Name>
@@ -3125,7 +3199,7 @@
               <Name>Year</Name>
               <DisplayName>Year</DisplayName>
               <Description />
-              <FieldType>Text</FieldType>
+              <FieldType>Number</FieldType>
               <Validators />
               <Formatter>
                 <Id />
@@ -3153,7 +3227,7 @@
               <MaskValueInAnalytics>false</MaskValueInAnalytics>
               <MaskImageForHiddenField>false</MaskImageForHiddenField>
               <IsPredefinedColumn>false</IsPredefinedColumn>
-              <DefaultValue xsi:type="xsd:string" />
+              <DefaultValue xsi:type="xsd:int">0</DefaultValue>
               <ChoiceItemsSource />
               <Lookup />
               <IsDefaultValueOverridden>false</IsDefaultValueOverridden>
@@ -3399,7 +3473,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>21</Version>
+        <Version>30</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -3460,7 +3534,7 @@
       <IsPartial>false</IsPartial>
     </DocumentType>
   </DocumentTypes>
-  <LastModifiedDate>2022-11-17T12:52:36.11</LastModifiedDate>
+  <LastModifiedDate>2022-12-07T03:05:48.007</LastModifiedDate>
   <LastModifiedUser>
     <Id>A67F454256EC463BA3CE993682D61A12</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
@@ -3472,7 +3546,7 @@
   <LockedByModule>None</LockedByModule>
   <RootDocumentType>
     <Id>AB378A692CD25272800A310024D7395C</Id>
-    <Version>21</Version>
+    <Version>30</Version>
     <Name />
   </RootDocumentType>
   <IsOnlineLearningEnabled>true</IsOnlineLearningEnabled>
