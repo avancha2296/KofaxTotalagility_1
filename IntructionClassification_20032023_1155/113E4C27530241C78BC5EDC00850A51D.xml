@@ -3,7 +3,7 @@
   <SpaPackageIdentity>
     <Id>113E4C27530241C78BC5EDC00850A51D</Id>
     <Name>IntructionClassification_20032023_1155</Name>
-    <Version>2</Version>
+    <Version>3</Version>
   </SpaPackageIdentity>
   <Description />
   <CategoryIdentity>
@@ -11,7 +11,7 @@
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
     <Name>Classification Project</Name>
   </CategoryIdentity>
-  <LastModifiedDateTime>2023-04-24T13:50:22.583</LastModifiedDateTime>
+  <LastModifiedDateTime>2023-04-24T14:31:02.89</LastModifiedDateTime>
   <LastModifiedResource>
     <Id>A67F454256EC463BA3CE993682D61A12</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
