@@ -3,7 +3,7 @@
   <Identity>
     <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
-    <Version>30</Version>
+    <Version>90</Version>
     <Name>Form_Type</Name>
   </Identity>
   <Name>Form_Type</Name>
@@ -19,7 +19,7 @@
     <DocumentType>
       <Identity>
         <Id>0A41ACC36FEFCDA484EF1CB288BCAC21</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name>8825</Name>
       </Identity>
       <Name>8825</Name>
@@ -191,7 +191,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -239,7 +239,7 @@
         <StorageId>0</StorageId>
       </TemplateImage>
       <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
-      <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+      <MonitorForClassificationOnlineLearning>true</MonitorForClassificationOnlineLearning>
       <PostValidationHandler>
         <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
         <ProcessIdentity>
@@ -254,7 +254,7 @@
     <DocumentType>
       <Identity>
         <Id>126050576870D6DC15779D6C3B8A4232</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name>1040C</Name>
       </Identity>
       <Name>1040C</Name>
@@ -273,7 +273,7 @@
                 <Name />
               </Identity>
               <Name>Page1_Year</Name>
-              <DisplayName>Page1_Year</DisplayName>
+              <DisplayName>Year</DisplayName>
               <Description />
               <FieldType>Number</FieldType>
               <Validators />
@@ -314,7 +314,7 @@
                 <Name />
               </Identity>
               <Name>Page1_Business_Name</Name>
-              <DisplayName>Page1_Business_Name</DisplayName>
+              <DisplayName>Business_Name</DisplayName>
               <Description />
               <FieldType>Text</FieldType>
               <Validators />
@@ -754,7 +754,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -802,7 +802,7 @@
         <StorageId>0</StorageId>
       </TemplateImage>
       <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
-      <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+      <MonitorForClassificationOnlineLearning>true</MonitorForClassificationOnlineLearning>
       <PostValidationHandler>
         <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
         <ProcessIdentity>
@@ -817,7 +817,7 @@
     <DocumentType>
       <Identity>
         <Id>37D438A24B48388F6B3FBAE7D328A1E6</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name>1120-G</Name>
       </Identity>
       <Name>1120-G</Name>
@@ -989,7 +989,96 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>30</Version>
+        <Version>90</Version>
+        <Name />
+      </ParentDocumentType>
+      <HasStandardValidator>false</HasStandardValidator>
+      <PdfSettings>
+        <Title />
+        <SkipFirstPage>false</SkipFirstPage>
+        <Subject />
+        <Author />
+        <Keywords />
+        <Application />
+        <Producer />
+      </PdfSettings>
+      <NameTemplate>[DocumentType]</NameTemplate>
+      <OnlineLearningFolderId />
+      <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
+      <Forms>
+        <ScanForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </ScanForm>
+        <ValidationForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </ValidationForm>
+        <VerificationForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </VerificationForm>
+        <DocumentReviewForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </DocumentReviewForm>
+      </Forms>
+      <AvailableForManualClassification>true</AvailableForManualClassification>
+      <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
+      <TemplateImage>
+        <Id />
+        <Name />
+        <AssetType>Image</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </TemplateImage>
+      <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
+      <MonitorForClassificationOnlineLearning>true</MonitorForClassificationOnlineLearning>
+      <PostValidationHandler>
+        <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
+        <ProcessIdentity>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+          <Name />
+        </ProcessIdentity>
+      </PostValidationHandler>
+      <IsPartial>false</IsPartial>
+    </DocumentType>
+    <DocumentType>
+      <Identity>
+        <Id>3B23F7A49EF280DFCE649E831C2C69EB</Id>
+        <Version>90</Version>
+        <Name>Others</Name>
+      </Identity>
+      <Name>Others</Name>
+      <Description />
+      <Status>Released</Status>
+      <FieldGroups />
+      <FieldValidators />
+      <DocumentTypeValidator>
+        <Identity>
+          <Id />
+          <Name />
+        </Identity>
+        <DocumentStandardValidator>
+          <Identity>
+            <Id />
+            <Name />
+          </Identity>
+          <FailureMessage />
+          <NumberOfPages>1</NumberOfPages>
+          <PageCountLevel>Exactly</PageCountLevel>
+        </DocumentStandardValidator>
+        <DocumentValidators />
+      </DocumentTypeValidator>
+      <ParentDocumentType>
+        <Id>AB378A692CD25272800A310024D7395C</Id>
+        <Version>90</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -1052,7 +1141,7 @@
     <DocumentType>
       <Identity>
         <Id>3BE5CC0BCCB32AE816AF203283CC0D61</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name>1120-S-K</Name>
       </Identity>
       <Name>1120-S-K</Name>
@@ -1196,7 +1285,7 @@
               <Name>Part1_Section_F</Name>
               <DisplayName>Part1_Section_F</DisplayName>
               <Description />
-              <FieldType>Number</FieldType>
+              <FieldType>Text</FieldType>
               <Validators />
               <Formatter>
                 <Id />
@@ -1224,7 +1313,7 @@
               <MaskValueInAnalytics>false</MaskValueInAnalytics>
               <MaskImageForHiddenField>false</MaskImageForHiddenField>
               <IsPredefinedColumn>false</IsPredefinedColumn>
-              <DefaultValue xsi:type="xsd:int">0</DefaultValue>
+              <DefaultValue xsi:type="xsd:string" />
               <ChoiceItemsSource />
               <Lookup />
               <IsDefaultValueOverridden>false</IsDefaultValueOverridden>
@@ -1388,7 +1477,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -1436,7 +1525,7 @@
         <StorageId>0</StorageId>
       </TemplateImage>
       <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
-      <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+      <MonitorForClassificationOnlineLearning>true</MonitorForClassificationOnlineLearning>
       <PostValidationHandler>
         <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
         <ProcessIdentity>
@@ -1451,7 +1540,7 @@
     <DocumentType>
       <Identity>
         <Id>6BC3441104B86A0A3DA812CEA33CA118</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name>1120-S</Name>
       </Identity>
       <Name>1120-S</Name>
@@ -1679,6 +1768,10 @@
               <Description />
               <FieldType>Number</FieldType>
               <Validators />
+              <Formatter>
+                <Id />
+                <Name />
+              </Formatter>
               <Verification>
                 <IsVerificationDisplayField>false</IsVerificationDisplayField>
                 <VerificationMode>Confirm</VerificationMode>
@@ -1865,7 +1958,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -1903,7 +1996,7 @@
           <Version>0</Version>
         </DocumentReviewForm>
       </Forms>
-      <AvailableForManualClassification>true</AvailableForManualClassification>
+      <AvailableForManualClassification>false</AvailableForManualClassification>
       <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
       <TemplateImage>
         <Id />
@@ -1913,7 +2006,7 @@
         <StorageId>0</StorageId>
       </TemplateImage>
       <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
-      <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+      <MonitorForClassificationOnlineLearning>true</MonitorForClassificationOnlineLearning>
       <PostValidationHandler>
         <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
         <ProcessIdentity>
@@ -1928,7 +2021,7 @@
     <DocumentType>
       <Identity>
         <Id>6EFCF729AC4D39EAA4FFC6F897C6E682</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name>1065</Name>
       </Identity>
       <Name>1065</Name>
@@ -1947,7 +2040,7 @@
                 <Name />
               </Identity>
               <Name>Page1_Year</Name>
-              <DisplayName>Page1_Year</DisplayName>
+              <DisplayName>Year</DisplayName>
               <Description />
               <FieldType>Number</FieldType>
               <Validators />
@@ -1988,7 +2081,7 @@
                 <Name />
               </Identity>
               <Name>Page1_Business_Name</Name>
-              <DisplayName>Page1_Business_Name</DisplayName>
+              <DisplayName>Business_Name</DisplayName>
               <Description />
               <FieldType>Text</FieldType>
               <Validators />
@@ -2387,7 +2480,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -2435,7 +2528,7 @@
         <StorageId>0</StorageId>
       </TemplateImage>
       <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
-      <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+      <MonitorForClassificationOnlineLearning>true</MonitorForClassificationOnlineLearning>
       <PostValidationHandler>
         <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
         <ProcessIdentity>
@@ -2450,7 +2543,7 @@
     <DocumentType>
       <Identity>
         <Id>9AB59D1DE4467214319D7E52C25BA7C2</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name>1120</Name>
       </Identity>
       <Name>1120</Name>
@@ -2469,7 +2562,7 @@
                 <Name />
               </Identity>
               <Name>Year_1</Name>
-              <DisplayName>Year_1</DisplayName>
+              <DisplayName>Year</DisplayName>
               <Description />
               <FieldType>Number</FieldType>
               <Validators />
@@ -2949,7 +3042,7 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -2997,7 +3090,7 @@
         <StorageId>0</StorageId>
       </TemplateImage>
       <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
-      <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+      <MonitorForClassificationOnlineLearning>true</MonitorForClassificationOnlineLearning>
       <PostValidationHandler>
         <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
         <ProcessIdentity>
@@ -3012,7 +3105,7 @@
     <DocumentType>
       <Identity>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name />
       </Identity>
       <Name />
@@ -3096,7 +3189,7 @@
     <DocumentType>
       <Identity>
         <Id>BFAB45E12934D9B44007A73F58CC670D</Id>
-        <Version>30</Version>
+        <Version>90</Version>
         <Name>1065-K1</Name>
       </Identity>
       <Name>1065-K1</Name>
@@ -3473,7 +3566,118 @@
       </DocumentTypeValidator>
       <ParentDocumentType>
         <Id>AB378A692CD25272800A310024D7395C</Id>
-        <Version>30</Version>
+        <Version>90</Version>
+        <Name />
+      </ParentDocumentType>
+      <HasStandardValidator>false</HasStandardValidator>
+      <PdfSettings>
+        <Title />
+        <SkipFirstPage>false</SkipFirstPage>
+        <Subject />
+        <Author />
+        <Keywords />
+        <Application />
+        <Producer />
+      </PdfSettings>
+      <NameTemplate>[DocumentType]</NameTemplate>
+      <OnlineLearningFolderId />
+      <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
+      <Forms>
+        <ScanForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </ScanForm>
+        <ValidationForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </ValidationForm>
+        <VerificationForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </VerificationForm>
+        <DocumentReviewForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </DocumentReviewForm>
+      </Forms>
+      <AvailableForManualClassification>true</AvailableForManualClassification>
+      <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
+      <TemplateImage>
+        <Id />
+        <Name />
+        <AssetType>Image</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </TemplateImage>
+      <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
+      <MonitorForClassificationOnlineLearning>true</MonitorForClassificationOnlineLearning>
+      <PostValidationHandler>
+        <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
+        <ProcessIdentity>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+          <Name />
+        </ProcessIdentity>
+      </PostValidationHandler>
+      <IsPartial>false</IsPartial>
+    </DocumentType>
+    <DocumentType>
+      <Identity>
+        <Id>C293C00786F89FA063AE340DB4155898</Id>
+        <Version>90</Version>
+        <Name>W2</Name>
+      </Identity>
+      <Name>W2</Name>
+      <Description />
+      <Status>Released</Status>
+      <FieldGroups>
+        <FieldGroup>
+          <Identity>
+            <Id>4BA1D9D62C59BFE2671412FF50378314</Id>
+          </Identity>
+          <Name>SSN</Name>
+          <Fields />
+          <ResourceACL>
+            <ResourceIdentity>
+              <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+              <AutomaticallyPopulate>true</AutomaticallyPopulate>
+              <Name />
+              <ResourceType>Worker</ResourceType>
+              <EmailAddress />
+              <UserId />
+              <ManagerialLevel>0</ManagerialLevel>
+            </ResourceIdentity>
+          </ResourceACL>
+          <ImageRedactionZones />
+          <IsInherited>false</IsInherited>
+          <MaskImageForHiddenFields>false</MaskImageForHiddenFields>
+        </FieldGroup>
+      </FieldGroups>
+      <FieldValidators />
+      <DocumentTypeValidator>
+        <Identity>
+          <Id />
+          <Name />
+        </Identity>
+        <DocumentStandardValidator>
+          <Identity>
+            <Id />
+            <Name />
+          </Identity>
+          <FailureMessage />
+          <NumberOfPages>1</NumberOfPages>
+          <PageCountLevel>Exactly</PageCountLevel>
+        </DocumentStandardValidator>
+        <DocumentValidators />
+      </DocumentTypeValidator>
+      <ParentDocumentType>
+        <Id>AB378A692CD25272800A310024D7395C</Id>
+        <Version>90</Version>
         <Name />
       </ParentDocumentType>
       <HasStandardValidator>false</HasStandardValidator>
@@ -3534,7 +3738,7 @@
       <IsPartial>false</IsPartial>
     </DocumentType>
   </DocumentTypes>
-  <LastModifiedDate>2022-12-07T03:05:48.007</LastModifiedDate>
+  <LastModifiedDate>2023-04-12T04:17:46.273</LastModifiedDate>
   <LastModifiedUser>
     <Id>A67F454256EC463BA3CE993682D61A12</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
@@ -3546,14 +3750,14 @@
   <LockedByModule>None</LockedByModule>
   <RootDocumentType>
     <Id>AB378A692CD25272800A310024D7395C</Id>
-    <Version>30</Version>
+    <Version>90</Version>
     <Name />
   </RootDocumentType>
   <IsOnlineLearningEnabled>true</IsOnlineLearningEnabled>
   <OnlineLearningSettings>
     <OnlineLearningMaxNewSamples>2000</OnlineLearningMaxNewSamples>
     <IsAutomaticOnlineLearningEnabled>false</IsAutomaticOnlineLearningEnabled>
-    <OnlineLearningFolderId>19D08304D868441C8347AF5001264702</OnlineLearningFolderId>
+    <OnlineLearningFolderId>A102094F6FB44F439F36AFD400AFA890</OnlineLearningFolderId>
   </OnlineLearningSettings>
   <FuzzyDatabases />
   <ResourceAccessTokens>
