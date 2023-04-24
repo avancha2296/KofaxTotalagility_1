@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ProjectInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>0B1520E7217CF8272E799F1977C9B77C</Id>
+    <Version>129</Version>
+    <Name>Instruction Classification</Name>
+  </Identity>
+  <Category>
+    <Id>2131F93223F1496692629BC9C83DA973</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+  </Category>
+  <Name>Instruction Classification</Name>
+  <Description />
+  <Status>Released</Status>
+  <LastModifiedProjectFile>2023-04-12T04:19:18.733</LastModifiedProjectFile>
+  <LastModifiedProjectFolderZip>2023-04-12T04:19:18.733</LastModifiedProjectFolderZip>
+  <LastModifiedUser>
+    <Id>A67F454256EC463BA3CE993682D61A12</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <OnlineLearningFolderId />
+  <ProjectType>ClassificationGroup</ProjectType>
+  <IsOnlineLearningEnabled>false</IsOnlineLearningEnabled>
+  <IsSeparationEnabled>true</IsSeparationEnabled>
+  <LockedByModule>None</LockedByModule>
+  <IsSimpleProject>false</IsSimpleProject>
+  <TrainingSetPath />
+  <UsedLicenseFeatures>None</UsedLicenseFeatures>
+  <ConfigurationSet>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ConfigSetFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Name&gt;DefaultTAConfigSet&lt;/Name&gt;
+  &lt;Groups&gt;
+    &lt;ConfigSetGroup&gt;
+      &lt;Name&gt;OnlineLearning&lt;/Name&gt;
+      &lt;Objects /&gt;
+      &lt;Properties&gt;
+        &lt;ConfigSetProperty&gt;
+          &lt;Name&gt;Path&lt;/Name&gt;
+          &lt;Value&gt;C:\ProgramData\Kofax Transformation\OnlineLearning\project&lt;/Value&gt;
+          &lt;Index&gt;0&lt;/Index&gt;
+        &lt;/ConfigSetProperty&gt;
+      &lt;/Properties&gt;
+    &lt;/ConfigSetGroup&gt;
+  &lt;/Groups&gt;
+&lt;/ConfigSetFile&gt;</ConfigurationSet>
+  <IsReadOnly>false</IsReadOnly>
+  <DoUpgrade>false</DoUpgrade>
+  <CustomVersion>0</CustomVersion>
+  <IsLimitedToOnlineLearning>false</IsLimitedToOnlineLearning>
+  <IsCaptureSolutionProject>false</IsCaptureSolutionProject>
+  <QuickClassificationBaseDocTypeId />
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</ProjectInfo>

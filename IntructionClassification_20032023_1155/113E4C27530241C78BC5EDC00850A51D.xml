@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SpaPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpaPackageIdentity>
+    <Id>113E4C27530241C78BC5EDC00850A51D</Id>
+    <Name>IntructionClassification_20032023_1155</Name>
+    <Version>2</Version>
+  </SpaPackageIdentity>
+  <Description />
+  <CategoryIdentity>
+    <Id>2131F93223F1496692629BC9C83DA973</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Classification Project</Name>
+  </CategoryIdentity>
+  <LastModifiedDateTime>2023-04-24T13:50:22.583</LastModifiedDateTime>
+  <LastModifiedResource>
+    <Id>A67F454256EC463BA3CE993682D61A12</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Anirudh Vancha</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedResource>
+  <Data>
+    <Processes>
+      <ProcessIdentity>
+        <Id>0E67A49D28B61D727E963DFAEEF53F98</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>108</Version>
+        <Name>Instruction Classification</Name>
+      </ProcessIdentity>
+    </Processes>
+    <ProcessExportOption>
+      <ExportResources>false</ExportResources>
+      <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+      <ExportResourcesExtensions>false</ExportResourcesExtensions>
+      <ExportCategories>false</ExportCategories>
+      <WithCategoryParentage>false</WithCategoryParentage>
+      <GeneralizedExport>false</GeneralizedExport>
+      <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+      <ExportCaseFragments>false</ExportCaseFragments>
+      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+      <ExportGlobalDataModels>false</ExportGlobalDataModels>
+      <ExportProcessDataModels>false</ExportProcessDataModels>
+      <ExportType>None</ExportType>
+      <Version>0</Version>
+      <ExportServerVariables>true</ExportServerVariables>
+      <XmlExpressionVariables />
+      <PreloadScript>1</PreloadScript>
+      <SleepDuration>0</SleepDuration>
+      <CategoryIds />
+      <ProcessDocument>false</ProcessDocument>
+      <ProcessViewer>false</ProcessViewer>
+      <DotNetActivityType>0</DotNetActivityType>
+      <Projects />
+      <AllProcessVariables />
+      <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+      <SiteDetailsRequired>false</SiteDetailsRequired>
+      <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+      <DocumentTemplates />
+      <Assets />
+      <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+      <IncludeExportConnectorMappings>true</IncludeExportConnectorMappings>
+      <IsSpaExport>false</IsSpaExport>
+      <ProcessType>BusinessProcess</ProcessType>
+      <ProtectedItems />
+      <ExportPageRenditions>false</ExportPageRenditions>
+      <ExportReportingTags>false</ExportReportingTags>
+      <ExportTestPlans>false</ExportTestPlans>
+      <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+      <IsGitExport>true</IsGitExport>
+    </ProcessExportOption>
+    <WorkAllocationRules />
+    <Skins />
+    <BusinessRules />
+    <Assets />
+    <Forms>
+      <FormIdentity>
+        <Id>36CA57F067EB4C37A3DB60E0E697559F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Instruction Classification_Validation</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>F60DFD703F15471B8976496F71CBC4C6</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Instruction Classification_Document Review</Name>
+        <Version>1</Version>
+      </FormIdentity>
+    </Forms>
+    <FormTemplates />
+    <FormExportOptions>
+      <ExportHeader>false</ExportHeader>
+      <ExportNavigation>false</ExportNavigation>
+      <ExportGlobalVariables>true</ExportGlobalVariables>
+      <ExportWebServices>false</ExportWebServices>
+      <ExportBusinessRules>false</ExportBusinessRules>
+      <ExportSecurityTokens>false</ExportSecurityTokens>
+      <ExportSecurityRoles>false</ExportSecurityRoles>
+      <ExportRoleMembers>false</ExportRoleMembers>
+      <ProcessExportOptions>
+        <ExportResources>false</ExportResources>
+        <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+        <ExportResourcesExtensions>false</ExportResourcesExtensions>
+        <ExportCategories>false</ExportCategories>
+        <WithCategoryParentage>false</WithCategoryParentage>
+        <GeneralizedExport>false</GeneralizedExport>
+        <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+        <ExportCaseFragments>false</ExportCaseFragments>
+        <ExportTemplateSkins>false</ExportTemplateSkins>
+        <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+        <ExportGlobalDataModels>false</ExportGlobalDataModels>
+        <ExportProcessDataModels>false</ExportProcessDataModels>
+        <ExportType>CombineAssociatedMaps</ExportType>
+        <Version>0</Version>
+        <ExportServerVariables>true</ExportServerVariables>
+        <XmlExpressionVariables />
+        <PreloadScript>1</PreloadScript>
+        <SleepDuration>0</SleepDuration>
+        <CategoryIds />
+        <ProcessDocument>false</ProcessDocument>
+        <ProcessViewer>false</ProcessViewer>
+        <DotNetActivityType>0</DotNetActivityType>
+        <Projects />
+        <AllProcessVariables />
+        <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+        <SiteDetailsRequired>false</SiteDetailsRequired>
+        <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+        <DocumentTemplates />
+        <Assets />
+        <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+        <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+        <IsSpaExport>false</IsSpaExport>
+        <ProcessType>BusinessProcess</ProcessType>
+        <ProtectedItems />
+        <ExportPageRenditions>false</ExportPageRenditions>
+        <ExportReportingTags>false</ExportReportingTags>
+        <ExportTestPlans>false</ExportTestPlans>
+        <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+        <IsGitExport>false</IsGitExport>
+      </ProcessExportOptions>
+      <IsSpaExport>false</IsSpaExport>
+      <ProtectedItems />
+    </FormExportOptions>
+    <Navigations />
+    <Sites />
+    <Themes />
+    <Languages />
+    <Lookups />
+    <Resources />
+    <Entities />
+    <WorkTypes />
+    <Checklists />
+    <DataModels />
+    <Folders>
+      <FolderTypeIdentity>
+        <Id>8C98E007E71E166BF424440871FAA593</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Version>1</Version>
+        <Name>Instruction Classification</Name>
+      </FolderTypeIdentity>
+    </Folders>
+    <ExtractionGroups>
+      <DocumentGroupIdentity>
+        <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>90</Version>
+        <Name>Form_Type</Name>
+      </DocumentGroupIdentity>
+    </ExtractionGroups>
+    <ClassificationGroups>
+      <ClassificationGroupIdentity>
+        <Id>0B1520E7217CF8272E799F1977C9B77C</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>129</Version>
+        <Name>Instruction Classification</Name>
+      </ClassificationGroupIdentity>
+    </ClassificationGroups>
+    <Formatters />
+    <FieldValidators />
+    <ChecklistItems />
+    <Events />
+    <Targets />
+    <Alerts />
+    <AlertExportOption>
+      <ExportAssociatedProcess>false</ExportAssociatedProcess>
+    </AlertExportOption>
+    <Categories>
+      <CategoryIdentity>
+        <Id>2131F93223F1496692629BC9C83DA973</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Classification Project</Name>
+      </CategoryIdentity>
+    </Categories>
+    <ScanVrsProfiles />
+    <PdfGenerationProfiles>
+      <PdfGenerationProfileIdentity>
+        <Id>1F0D9DF71C000086D6599FD0917E4943</Id>
+        <Name>PDFProfile1</Name>
+      </PdfGenerationProfileIdentity>
+    </PdfGenerationProfiles>
+    <DocumentConversionProfiles />
+    <JobSchedules />
+    <RegularExpressions />
+    <Personas />
+    <SeparationProfiles />
+    <Queries />
+    <ShowProcessAssociations>true</ShowProcessAssociations>
+    <ShowFormAssociations>true</ShowFormAssociations>
+    <SystemExportOptions>
+      <IncludeNoteTypes>false</IncludeNoteTypes>
+      <IncludeHotKeys>false</IncludeHotKeys>
+      <IncludePageRenditions>false</IncludePageRenditions>
+      <IncludeNodeColors>false</IncludeNodeColors>
+      <IncludeReportingTags>false</IncludeReportingTags>
+      <IncludeErrorCodes>false</IncludeErrorCodes>
+    </SystemExportOptions>
+    <ShowCategoryAssociations>false</ShowCategoryAssociations>
+    <Packages />
+    <ProtectedItemsData>
+      <ProtectAllItems>false</ProtectAllItems>
+      <ProtectedItems />
+    </ProtectedItemsData>
+    <DocumentTypeVariantCollection />
+    <MissingAssociations />
+    <IncludeRoleMembers>false</IncludeRoleMembers>
+    <IncludeDevices>false</IncludeDevices>
+    <IncludeDeviceProfiles>false</IncludeDeviceProfiles>
+    <IncludeDeviceSettings>false</IncludeDeviceSettings>
+    <Deployments />
+    <ErrorList />
+    <CaptureControlLayouts />
+    <CustomServiceIdentities />
+    <CustomServiceGroupIdentities />
+    <CaptureSolutionIdentity>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </CaptureSolutionIdentity>
+    <ImportConnections />
+    <ImportSources />
+    <OAuthServers />
+    <QuickApp>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </QuickApp>
+    <PackageItemAssociations>
+      <PackageItemAssociation>
+        <Id>0E67A49D28B61D727E963DFAEEF53F98</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>2131F93223F1496692629BC9C83DA973</Id>
+            <ItemType>28</ItemType>
+            <Name>Classification Project</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>0B1520E7217CF8272E799F1977C9B77C</Id>
+            <ItemType>16</ItemType>
+            <Name>Instruction Classification</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+            <ItemType>36</ItemType>
+            <Name>WORKQUEUE_FORM</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
+            <ItemType>18</ItemType>
+            <Name>Form_Type</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>8C98E007E71E166BF424440871FAA593</Id>
+            <ItemType>19</ItemType>
+            <Name>Instruction Classification</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>F60DFD703F15471B8976496F71CBC4C6</Id>
+            <ItemType>6</ItemType>
+            <Name>Instruction Classification_Document Review</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>36CA57F067EB4C37A3DB60E0E697559F</Id>
+            <ItemType>6</ItemType>
+            <Name>Instruction Classification_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1F0D9DF71C000086D6599FD0917E4943</Id>
+            <ItemType>30</ItemType>
+            <Name>PDFProfile1</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>0E67A49D28B61D727E963DFAEEF53F98</Id>
+            <ItemType>0</ItemType>
+            <Name>Instruction Classification</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SPP_SYSTEM_SESSION_ID</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SPP_SMTP_SERVER</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>DATABASE_VARIABLE</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>F60DFD703F15471B8976496F71CBC4C6</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>36CA57F067EB4C37A3DB60E0E697559F</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <Name />
+        <ItemType>36</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+        <Name />
+        <ItemType>36</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>0B1520E7217CF8272E799F1977C9B77C</Id>
+        <Name />
+        <ItemType>16</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>3F6BC108EDBE64ACF50A55679BB59AD6</Id>
+        <Name />
+        <ItemType>18</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>8C98E007E71E166BF424440871FAA593</Id>
+        <Name />
+        <ItemType>19</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>1F0D9DF71C000086D6599FD0917E4943</Id>
+        <Name />
+        <ItemType>30</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>SPP_SYSTEM_SESSION_ID</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>SPP_SMTP_SERVER</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>DATABASE_VARIABLE</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>2131F93223F1496692629BC9C83DA973</Id>
+        <Name />
+        <ItemType>28</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+    </PackageItemAssociations>
+    <GlobalVariables>
+      <SessionVariableIdentity>
+        <Name>SESSION_ID</Name>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>WORKQUEUE_FORM</Name>
+        <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+    </GlobalVariables>
+    <ServerVariables>
+      <VariableIdentity>
+        <Id>SPP_SYSTEM_SESSION_ID</Id>
+        <Version>0</Version>
+        <DisplayName>SPP_SYSTEM_SESSION_ID</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>SPP_SMTP_SERVER</Id>
+        <Version>0</Version>
+        <DisplayName>SPP_SMTP_SERVER</DisplayName>
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>DATABASE_VARIABLE</Id>
+        <Version>0</Version>
+        <DisplayName>Database_variable</DisplayName>
+      </VariableIdentity>
+    </ServerVariables>
+    <DotNetReferences />
+  </Data>
+  <Comments />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <PermissionType>NoAccess</PermissionType>
+</SpaPackage>
